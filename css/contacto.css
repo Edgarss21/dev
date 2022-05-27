@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(237, 249, 254);
+}
+.ImagenPerfil{
+    width: 75px;
+    height: 75px;
+    margin: 1%;
+}
+.encabezado{
+    margin: 2%;
+}
+.nombre{
+    font-family: 'Shadows Into Light', cursive;
+    background-color: transparent;
+    font-size: 1.5cm;
+    text-align: center;
+    color: rgb(0, 28, 85);
+}
+.barra{
+    font-family: 'Lato', sans-serif;
+    margin: 1.5cm;
+    text-align: right;
+}
+.button {
+    background-color: rgba(0, 28, 85, 0.418);
+    border: inherit;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: solid;
+    float: right; 
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 16px 32px rgb(237, 249, 254);/*para que se vea como sombra*/
+    border-radius: 5px;
+}
+    .button:hover {
+    background-color: #265ae9a1;
+    color: white;
+    border-radius: 44px;
+    }
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(0, 28, 85);
+    background-color: transparent;
+    text-align: center;
+}
+.contactos{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(0, 28, 85);
+    text-align: center;
+}
+img{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: block;
+    object-fit: contain;
+}
+.occ{
+    height:30px;
+    width: 30px;
+}
+.link{
+    height:30px;
+    width: 30px;
+}
+.git{
+    height:30px;
+    width: 30px;
+}
+.pie1{
+    text-align:left ;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(0, 28, 85);
+}
+.pie2{
+    text-align: right;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(0, 28, 85);
+}
